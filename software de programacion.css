@@ -1,0 +1,63 @@
+body{
+    background-image: url(./progrmacion.jpg);
+    background-size: cover;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    border-radius: 10px;
+    border-width: 10;
+    border-style:double;
+    background-color: brown;
+    color:#fff
+}
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titulo{
+    border: 0px;
+    border-radius: 10px;
+    border-width: 10;
+    border-style: groove;
+    background-color: brown;
+    color:#fff
+}
+*{
+    padding: 1px;
+    margin: 1px;
+}
+#header{
+    margin: auto;
+    width: 500px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: rgb(194, 38, 38);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+     border-radius: 50px;
+    box-shadow: 20px 20px 60px #aa5f5f,
+               -20px -20px 60px #adbd24;
+}
+.nav > li{
+    float:left;
+}
+.nav li a:hover{
+    background-color: #69666666;
+}
+.card {
+ width: 350px;
+ height: 350px;
+ border-radius: 50px;
+ background: #e0e0e0;
+ box-shadow: 20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+a{
+    color: red;
+}
